@@ -7,20 +7,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormProject
+namespace WebFormProject.UserControl
 {
 
 
-    public partial class _Default
+    public partial class EventUserControl
     {
 
         /// <summary>
-        /// MyEventUserControl control.
+        /// txtPageTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebFormProject.UserControl.EventUserControl MyEventUserControl;
+        protected global::System.Web.UI.WebControls.TextBox txtPageTitle;
+
+        /// <summary>
+        /// btnUpdatePageTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdatePageTitle;
     }
 }

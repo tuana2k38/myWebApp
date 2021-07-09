@@ -154,6 +154,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="UserControl\EventUserControl.ascx" />
     <Content Include="UserControl\UserInfoBoxControl.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\EventUserControl.ascx.cs">
+      <DependentUpon>EventUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\EventUserControl.ascx.designer.cs">
+      <DependentUpon>EventUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserControl\UserInfoBoxControl.ascx.cs">
       <DependentUpon>UserInfoBoxControl.ascx</DependentUpon>
